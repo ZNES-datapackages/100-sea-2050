@@ -1,4 +1,13 @@
 {
+  "directories": {
+    "elements": "data/elements",
+    "sequences": "data/sequences",
+    "geometries": "data/geometries",
+    "archive": "archive",
+    "cache": "cache",
+    "resources": "resources",
+    "scripts": "scripts"
+  },
   "buses": [
     "MM",
     "VN",
