@@ -1,1 +1,19 @@
-{}
+{
+  "buses": [
+    "MM",
+    "VN",
+    "LA",
+    "KH",
+    "TH"],
+  "sources": [
+    "dispatchable",
+    "volatile",
+    "storage"],
+  "sinks": [
+    "load"],
+  "transformer": [
+    "connection",
+    "conversion",
+    "chp"
+  ]
+}

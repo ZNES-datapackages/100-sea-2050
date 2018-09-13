@@ -2,18 +2,19 @@ import pandas as pd
 
 from datapackage_utilities import building
 
+config = building.get_config()
+
 def annuity(capex, n, wacc):
     return capex * (wacc * (1 + wacc) ** n) / ((1 + wacc) ** n - 1)
-
 
 df = pd.read_csv('archive/techno-economic-assumptions.csv', index_col=0)
 df.drop('source (c,l,e)', axis=1, inplace=True)
 
-types = ['dispatchable', 'volatile', 'storage']
+types = config['sources']
 
 element_dfs = {t: building.read_elements(t + '.csv') for t in types}
 
-buses = ['MM', 'VN', 'LA', 'KH', 'TH']
+buses = config['buses']
 
 data = dict(zip(types, [{},{},{}]))
 
