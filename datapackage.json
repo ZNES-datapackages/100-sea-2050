@@ -1,0 +1,413 @@
+{
+    "profile": "data-package",
+    "resources": [
+        {
+            "profile": "tabular-data-resource",
+            "encoding": "utf-8",
+            "path": "data/elements/volatile.csv",
+            "name": "volatile",
+            "mediatype": "text/csv",
+            "format": "csv",
+            "schema": {
+                "missingValues": [
+                    ""
+                ],
+                "fields": [
+                    {
+                        "name": "name",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "bus",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "capacity_cost",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "capacity_potential",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "carrier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "costs in US/kW",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "efficiency",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "lifetime",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "profile",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "tech",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "type",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ],
+                "foreignKeys": [
+                    {
+                        "reference": {
+                            "fields": "name",
+                            "resource": "bus"
+                        },
+                        "fields": "bus"
+                    },
+                    {
+                        "reference": {
+                            "resource": "volatile_profile"
+                        },
+                        "fields": "profile"
+                    }
+                ]
+            }
+        },
+        {
+            "profile": "tabular-data-resource",
+            "encoding": "utf-8",
+            "path": "data/elements/dispatchable.csv",
+            "name": "dispatchable",
+            "mediatype": "text/csv",
+            "format": "csv",
+            "schema": {
+                "missingValues": [
+                    ""
+                ],
+                "fields": [
+                    {
+                        "name": "name",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "bus",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "capacity_cost",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "capacity_potential",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "carrier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "costs in US/kW",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "efficiency",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "lifetime",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "tech",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "type",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ],
+                "foreignKeys": [
+                    {
+                        "reference": {
+                            "fields": "name",
+                            "resource": "bus"
+                        },
+                        "fields": "bus"
+                    }
+                ]
+            }
+        },
+        {
+            "profile": "tabular-data-resource",
+            "encoding": "utf-8",
+            "path": "data/elements/storage.csv",
+            "name": "storage",
+            "mediatype": "text/csv",
+            "format": "csv",
+            "schema": {
+                "missingValues": [
+                    ""
+                ],
+                "fields": [
+                    {
+                        "name": "name",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "bus",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "capacity_cost",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "capacity_ratio",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "carrier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "costs in US/kW",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "efficiency",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "lifetime",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "loss",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "tech",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "type",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ],
+                "foreignKeys": [
+                    {
+                        "reference": {
+                            "fields": "name",
+                            "resource": "bus"
+                        },
+                        "fields": "bus"
+                    }
+                ]
+            }
+        },
+        {
+            "profile": "tabular-data-resource",
+            "encoding": "utf-8",
+            "path": "data/elements/load.csv",
+            "name": "load",
+            "mediatype": "text/csv",
+            "format": "csv",
+            "schema": {
+                "missingValues": [
+                    ""
+                ],
+                "fields": [
+                    {
+                        "name": "bus",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "name",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "amount",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "profile",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "type",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ],
+                "foreignKeys": [
+                    {
+                        "reference": {
+                            "fields": "name",
+                            "resource": "bus"
+                        },
+                        "fields": "bus"
+                    },
+                    {
+                        "reference": {
+                            "resource": "load_profile"
+                        },
+                        "fields": "profile"
+                    }
+                ]
+            }
+        },
+        {
+            "profile": "tabular-data-resource",
+            "encoding": "utf-8",
+            "path": "data/sequences/load_profile.csv",
+            "name": "load_profile",
+            "mediatype": "text/csv",
+            "format": "csv",
+            "schema": {
+                "missingValues": [
+                    ""
+                ],
+                "fields": [
+                    {
+                        "name": "timeindex",
+                        "type": "datetime",
+                        "format": "default"
+                    },
+                    {
+                        "name": "el-profile-TH",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "el-profile-MM",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "el-profile-LA",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "el-profile-KH",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "el-profile-VN",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ]
+            }
+        },
+        {
+            "profile": "tabular-data-resource",
+            "encoding": "utf-8",
+            "path": "data/sequences/volatile_profile.csv",
+            "name": "volatile_profile",
+            "mediatype": "text/csv",
+            "format": "csv",
+            "schema": {
+                "missingValues": [
+                    ""
+                ],
+                "fields": [
+                    {
+                        "name": "timeindex",
+                        "type": "datetime",
+                        "format": "default"
+                    },
+                    {
+                        "name": "wind-profile-LA",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "pv-profile-LA",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "wind-profile-KH",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "pv-profile-KH",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "wind-profile-MM",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "pv-profile-MM",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "wind-profile-TH",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "pv-profile-TH",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "wind-profile-VN",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "pv-profile-VN",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ]
+            }
+        }
+    ]
+}

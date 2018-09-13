@@ -1,0 +1,31 @@
+name;bus;capacity_cost;capacity_potential;carrier;costs in US/kW;efficiency;lifetime;profile;tech;type
+pv_rooftop_KH;KH;72938.93963756577;;solar;850;1.0;25;pv_rooftop_KH-profile;pv_rooftop;volatile
+pv_rooftop_LA;LA;72938.93963756577;;solar;850;1.0;25;pv_rooftop_LA-profile;pv_rooftop;volatile
+pv_rooftop_MM;MM;72938.93963756577;;solar;850;1.0;25;pv_rooftop_MM-profile;pv_rooftop;volatile
+pv_rooftop_TH;TH;72938.93963756577;;solar;850;1.0;25;pv_rooftop_TH-profile;pv_rooftop;volatile
+pv_rooftop_VN;VN;72938.93963756577;;solar;850;1.0;25;pv_rooftop_VN-profile;pv_rooftop;volatile
+pv_thin_film_KH;KH;102510.71735717566;;solar;1086;1.0;20;pv_thin_film_KH-profile;pv_thin_film;volatile
+pv_thin_film_LA;LA;102510.71735717566;;solar;1086;1.0;20;pv_thin_film_LA-profile;pv_thin_film;volatile
+pv_thin_film_MM;MM;102510.71735717566;;solar;1086;1.0;20;pv_thin_film_MM-profile;pv_thin_film;volatile
+pv_thin_film_TH;TH;102510.71735717566;;solar;1086;1.0;20;pv_thin_film_TH-profile;pv_thin_film;volatile
+pv_thin_film_VN;VN;102510.71735717566;;solar;1086;1.0;20;pv_thin_film_VN-profile;pv_thin_film;volatile
+solar_thermal_with_storage_KH;KH;377571.70297302265;;solar;4000;1.0;20;solar_thermal_with_storage_KH-profile;solar_thermal_with_storage;volatile
+solar_thermal_with_storage_LA;LA;377571.70297302265;;solar;4000;1.0;20;solar_thermal_with_storage_LA-profile;solar_thermal_with_storage;volatile
+solar_thermal_with_storage_MM;MM;377571.70297302265;;solar;4000;1.0;20;solar_thermal_with_storage_MM-profile;solar_thermal_with_storage;volatile
+solar_thermal_with_storage_TH;TH;377571.70297302265;;solar;4000;1.0;20;solar_thermal_with_storage_TH-profile;solar_thermal_with_storage;volatile
+solar_thermal_with_storage_VN;VN;377571.70297302265;;solar;4000;1.0;20;solar_thermal_with_storage_VN-profile;solar_thermal_with_storage;volatile
+solar_thermal_without_storage_KH;KH;349537.0040272757;;solar;3703;1.0;20;solar_thermal_without_storage_KH-profile;solar_thermal_without_storage;volatile
+solar_thermal_without_storage_LA;LA;349537.0040272757;;solar;3703;1.0;20;solar_thermal_without_storage_LA-profile;solar_thermal_without_storage;volatile
+solar_thermal_without_storage_MM;MM;349537.0040272757;;solar;3703;1.0;20;solar_thermal_without_storage_MM-profile;solar_thermal_without_storage;volatile
+solar_thermal_without_storage_TH;TH;349537.0040272757;;solar;3703;1.0;20;solar_thermal_without_storage_TH-profile;solar_thermal_without_storage;volatile
+solar_thermal_without_storage_VN;VN;349537.0040272757;;solar;3703;1.0;20;solar_thermal_without_storage_VN-profile;solar_thermal_without_storage;volatile
+wind_offshore_KH;KH;201568.9049513435;;wind ;2349;1.0;25;wind_offshore_KH-profile;wind_offshore;volatile
+wind_offshore_LA;LA;201568.9049513435;;wind ;2349;1.0;25;wind_offshore_LA-profile;wind_offshore;volatile
+wind_offshore_MM;MM;201568.9049513435;;wind ;2349;1.0;25;wind_offshore_MM-profile;wind_offshore;volatile
+wind_offshore_TH;TH;201568.9049513435;;wind ;2349;1.0;25;wind_offshore_TH-profile;wind_offshore;volatile
+wind_offshore_VN;VN;201568.9049513435;;wind ;2349;1.0;25;wind_offshore_VN-profile;wind_offshore;volatile
+wind_onshore_KH;KH;100827.3577342821;;wind ;1175;1.0;25;wind_onshore_KH-profile;wind_onshore;volatile
+wind_onshore_LA;LA;100827.3577342821;;wind ;1175;1.0;25;wind_onshore_LA-profile;wind_onshore;volatile
+wind_onshore_MM;MM;100827.3577342821;;wind ;1175;1.0;25;wind_onshore_MM-profile;wind_onshore;volatile
+wind_onshore_TH;TH;100827.3577342821;;wind ;1175;1.0;25;wind_onshore_TH-profile;wind_onshore;volatile
+wind_onshore_VN;VN;100827.3577342821;;wind ;1175;1.0;25;wind_onshore_VN-profile;wind_onshore;volatile
