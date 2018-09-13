@@ -26,12 +26,17 @@ for idx, row in df.iterrows():
 
         # add tech specific data
         if row['type'] == 'dispatchable':
+            if 'ror' in idx:
+                edge_parameters = {'summed_max': 4000}
+            else:
+                edge_parameters = {}
             element.update({
                 'capacity_cost': annuity(
                     row['costs in US/kW'], row['lifetime'], 0.07) * 1000,
                 'capacity_potential': None,
                 'bus': b,
-                'tech': idx})
+                'tech': idx,
+                'edge_parameters': edge_parameters})
 
         if row['type'] == 'volatile':
             element.update({

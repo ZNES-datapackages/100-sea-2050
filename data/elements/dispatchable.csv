@@ -1,41 +1,41 @@
-name;bus;capacity_cost;capacity_potential;carrier;costs in US/kW;efficiency;lifetime;tech;type
-biogas_KH;KH;411458.7633148514;;biogas;4359;0.45;20;biogas;dispatchable
-biogas_LA;LA;411458.7633148514;;biogas;4359;0.45;20;biogas;dispatchable
-biogas_MM;MM;411458.7633148514;;biogas;4359;0.45;20;biogas;dispatchable
-biogas_TH;TH;411458.7633148514;;biogas;4359;0.45;20;biogas;dispatchable
-biogas_VN;VN;411458.7633148514;;biogas;4359;0.45;20;biogas;dispatchable
-biomass_KH;KH;162827.79690711605;;biomass;1725;0.45;20;biomass;dispatchable
-biomass_LA;LA;162827.79690711605;;biomass;1725;0.45;20;biomass;dispatchable
-biomass_MM;MM;162827.79690711605;;biomass;1725;0.45;20;biomass;dispatchable
-biomass_TH;TH;162827.79690711605;;biomass;1725;0.45;20;biomass;dispatchable
-biomass_VN;VN;162827.79690711605;;biomass;1725;0.45;20;biomass;dispatchable
-ccgt_KH;KH;69458.46259696316;;gas;926;0.55;40;ccgt;dispatchable
-ccgt_LA;LA;69458.46259696316;;gas;926;0.55;40;ccgt;dispatchable
-ccgt_MM;MM;69458.46259696316;;gas;926;0.55;40;ccgt;dispatchable
-ccgt_TH;TH;69458.46259696316;;gas;926;0.55;40;ccgt;dispatchable
-ccgt_VN;VN;69458.46259696316;;gas;926;0.55;40;ccgt;dispatchable
-coal_ccs_KH;KH;345417.08451297553;;gas;4605;0.45;40;coal_ccs;dispatchable
-coal_ccs_LA;LA;345417.08451297553;;gas;4605;0.45;40;coal_ccs;dispatchable
-coal_ccs_MM;MM;345417.08451297553;;gas;4605;0.45;40;coal_ccs;dispatchable
-coal_ccs_TH;TH;345417.08451297553;;gas;4605;0.45;40;coal_ccs;dispatchable
-coal_ccs_VN;VN;345417.08451297553;;gas;4605;0.45;40;coal_ccs;dispatchable
-generic_coal_KH;KH;183772.3902403453;;coal;2450;0.5;40;generic_coal;dispatchable
-generic_coal_LA;LA;183772.3902403453;;coal;2450;0.5;40;generic_coal;dispatchable
-generic_coal_MM;MM;183772.3902403453;;coal;2450;0.5;40;generic_coal;dispatchable
-generic_coal_TH;TH;183772.3902403453;;coal;2450;0.5;40;generic_coal;dispatchable
-generic_coal_VN;VN;183772.3902403453;;coal;2450;0.5;40;generic_coal;dispatchable
-gt_KH;KH;57306.98209943828;;gas;764;0.4;40;gt;dispatchable
-gt_LA;LA;57306.98209943828;;gas;764;0.4;40;gt;dispatchable
-gt_MM;MM;57306.98209943828;;gas;764;0.4;40;gt;dispatchable
-gt_TH;TH;57306.98209943828;;gas;764;0.4;40;gt;dispatchable
-gt_VN;VN;57306.98209943828;;gas;764;0.4;40;gt;dispatchable
-large_hydro_(ror)_KH;KH;165236.89363804844;;water;2350;0.9;80;large_hydro_(ror);dispatchable
-large_hydro_(ror)_LA;LA;165236.89363804844;;water;2350;0.9;80;large_hydro_(ror);dispatchable
-large_hydro_(ror)_MM;MM;165236.89363804844;;water;2350;0.9;80;large_hydro_(ror);dispatchable
-large_hydro_(ror)_TH;TH;165236.89363804844;;water;2350;0.9;80;large_hydro_(ror);dispatchable
-large_hydro_(ror)_VN;VN;165236.89363804844;;water;2350;0.9;80;large_hydro_(ror);dispatchable
-small_hydro_(ror)_KH;KH;172268.2508141356;;water;2450;0.9;80;small_hydro_(ror);dispatchable
-small_hydro_(ror)_LA;LA;172268.2508141356;;water;2450;0.9;80;small_hydro_(ror);dispatchable
-small_hydro_(ror)_MM;MM;172268.2508141356;;water;2450;0.9;80;small_hydro_(ror);dispatchable
-small_hydro_(ror)_TH;TH;172268.2508141356;;water;2450;0.9;80;small_hydro_(ror);dispatchable
-small_hydro_(ror)_VN;VN;172268.2508141356;;water;2450;0.9;80;small_hydro_(ror);dispatchable
+name;bus;capacity_cost;capacity_potential;carrier;costs in US/kW;edge_parameters;efficiency;lifetime;tech;type
+biogas_KH;KH;411458.7633148514;;biogas;4359;{};0.45;20;biogas;dispatchable
+biogas_LA;LA;411458.7633148514;;biogas;4359;{};0.45;20;biogas;dispatchable
+biogas_MM;MM;411458.7633148514;;biogas;4359;{};0.45;20;biogas;dispatchable
+biogas_TH;TH;411458.7633148514;;biogas;4359;{};0.45;20;biogas;dispatchable
+biogas_VN;VN;411458.7633148514;;biogas;4359;{};0.45;20;biogas;dispatchable
+biomass_KH;KH;162827.79690711605;;biomass;1725;{};0.45;20;biomass;dispatchable
+biomass_LA;LA;162827.79690711605;;biomass;1725;{};0.45;20;biomass;dispatchable
+biomass_MM;MM;162827.79690711605;;biomass;1725;{};0.45;20;biomass;dispatchable
+biomass_TH;TH;162827.79690711605;;biomass;1725;{};0.45;20;biomass;dispatchable
+biomass_VN;VN;162827.79690711605;;biomass;1725;{};0.45;20;biomass;dispatchable
+ccgt_KH;KH;69458.46259696316;;gas;926;{};0.55;40;ccgt;dispatchable
+ccgt_LA;LA;69458.46259696316;;gas;926;{};0.55;40;ccgt;dispatchable
+ccgt_MM;MM;69458.46259696316;;gas;926;{};0.55;40;ccgt;dispatchable
+ccgt_TH;TH;69458.46259696316;;gas;926;{};0.55;40;ccgt;dispatchable
+ccgt_VN;VN;69458.46259696316;;gas;926;{};0.55;40;ccgt;dispatchable
+coal_ccs_KH;KH;345417.08451297553;;gas;4605;{};0.45;40;coal_ccs;dispatchable
+coal_ccs_LA;LA;345417.08451297553;;gas;4605;{};0.45;40;coal_ccs;dispatchable
+coal_ccs_MM;MM;345417.08451297553;;gas;4605;{};0.45;40;coal_ccs;dispatchable
+coal_ccs_TH;TH;345417.08451297553;;gas;4605;{};0.45;40;coal_ccs;dispatchable
+coal_ccs_VN;VN;345417.08451297553;;gas;4605;{};0.45;40;coal_ccs;dispatchable
+generic_coal_KH;KH;183772.3902403453;;coal;2450;{};0.5;40;generic_coal;dispatchable
+generic_coal_LA;LA;183772.3902403453;;coal;2450;{};0.5;40;generic_coal;dispatchable
+generic_coal_MM;MM;183772.3902403453;;coal;2450;{};0.5;40;generic_coal;dispatchable
+generic_coal_TH;TH;183772.3902403453;;coal;2450;{};0.5;40;generic_coal;dispatchable
+generic_coal_VN;VN;183772.3902403453;;coal;2450;{};0.5;40;generic_coal;dispatchable
+gt_KH;KH;57306.98209943828;;gas;764;{};0.4;40;gt;dispatchable
+gt_LA;LA;57306.98209943828;;gas;764;{};0.4;40;gt;dispatchable
+gt_MM;MM;57306.98209943828;;gas;764;{};0.4;40;gt;dispatchable
+gt_TH;TH;57306.98209943828;;gas;764;{};0.4;40;gt;dispatchable
+gt_VN;VN;57306.98209943828;;gas;764;{};0.4;40;gt;dispatchable
+large_hydro_(ror)_KH;KH;165236.89363804844;;water;2350;'{''summed_max'': 4000}';0.9;80;large_hydro_(ror);dispatchable
+large_hydro_(ror)_LA;LA;165236.89363804844;;water;2350;'{''summed_max'': 4000}';0.9;80;large_hydro_(ror);dispatchable
+large_hydro_(ror)_MM;MM;165236.89363804844;;water;2350;'{''summed_max'': 4000}';0.9;80;large_hydro_(ror);dispatchable
+large_hydro_(ror)_TH;TH;165236.89363804844;;water;2350;'{''summed_max'': 4000}';0.9;80;large_hydro_(ror);dispatchable
+large_hydro_(ror)_VN;VN;165236.89363804844;;water;2350;'{''summed_max'': 4000}';0.9;80;large_hydro_(ror);dispatchable
+small_hydro_(ror)_KH;KH;172268.2508141356;;water;2450;'{''summed_max'': 4000}';0.9;80;small_hydro_(ror);dispatchable
+small_hydro_(ror)_LA;LA;172268.2508141356;;water;2450;'{''summed_max'': 4000}';0.9;80;small_hydro_(ror);dispatchable
+small_hydro_(ror)_MM;MM;172268.2508141356;;water;2450;'{''summed_max'': 4000}';0.9;80;small_hydro_(ror);dispatchable
+small_hydro_(ror)_TH;TH;172268.2508141356;;water;2450;'{''summed_max'': 4000}';0.9;80;small_hydro_(ror);dispatchable
+small_hydro_(ror)_VN;VN;172268.2508141356;;water;2450;'{''summed_max'': 4000}';0.9;80;small_hydro_(ror);dispatchable

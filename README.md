@@ -1,7 +1,7 @@
 # Datapackage for modelling 100% RE in South East Asia
 
 * country codes: VN, MM, KH, LA, TH A
-* all power / energy units are in MW / MWh. 
+* all power / energy units are in MW / MWh.
 
 
 
@@ -15,5 +15,3 @@
 * ...
 
 ## Caculation
-
-https://docs.google.com/spreadsheets/d/1MhoZNyl_V6bQ6W46UdACjr8mV7kfLddWn27CofkPsiM/edit#gid=709357845
