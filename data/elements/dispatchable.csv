@@ -19,11 +19,6 @@ coal_ccs_LA;LA;345417.08451297553;;gas;4605;{};0.45;40;coal_ccs;dispatchable
 coal_ccs_MM;MM;345417.08451297553;;gas;4605;{};0.45;40;coal_ccs;dispatchable
 coal_ccs_TH;TH;345417.08451297553;;gas;4605;{};0.45;40;coal_ccs;dispatchable
 coal_ccs_VN;VN;345417.08451297553;;gas;4605;{};0.45;40;coal_ccs;dispatchable
-generic_coal_KH;KH;183772.3902403453;;coal;2450;{};0.5;40;generic_coal;dispatchable
-generic_coal_LA;LA;183772.3902403453;;coal;2450;{};0.5;40;generic_coal;dispatchable
-generic_coal_MM;MM;183772.3902403453;;coal;2450;{};0.5;40;generic_coal;dispatchable
-generic_coal_TH;TH;183772.3902403453;;coal;2450;{};0.5;40;generic_coal;dispatchable
-generic_coal_VN;VN;183772.3902403453;;coal;2450;{};0.5;40;generic_coal;dispatchable
 gt_KH;KH;57306.98209943828;;gas;764;{};0.4;40;gt;dispatchable
 gt_LA;LA;57306.98209943828;;gas;764;{};0.4;40;gt;dispatchable
 gt_MM;MM;57306.98209943828;;gas;764;{};0.4;40;gt;dispatchable
@@ -34,8 +29,3 @@ large_hydro_(ror)_LA;LA;165236.89363804844;;water;2350;'{''summed_max'': 4000}';
 large_hydro_(ror)_MM;MM;165236.89363804844;;water;2350;'{''summed_max'': 4000}';0.9;80;large_hydro_(ror);dispatchable
 large_hydro_(ror)_TH;TH;165236.89363804844;;water;2350;'{''summed_max'': 4000}';0.9;80;large_hydro_(ror);dispatchable
 large_hydro_(ror)_VN;VN;165236.89363804844;;water;2350;'{''summed_max'': 4000}';0.9;80;large_hydro_(ror);dispatchable
-small_hydro_(ror)_KH;KH;172268.2508141356;;water;2450;'{''summed_max'': 4000}';0.9;80;small_hydro_(ror);dispatchable
-small_hydro_(ror)_LA;LA;172268.2508141356;;water;2450;'{''summed_max'': 4000}';0.9;80;small_hydro_(ror);dispatchable
-small_hydro_(ror)_MM;MM;172268.2508141356;;water;2450;'{''summed_max'': 4000}';0.9;80;small_hydro_(ror);dispatchable
-small_hydro_(ror)_TH;TH;172268.2508141356;;water;2450;'{''summed_max'': 4000}';0.9;80;small_hydro_(ror);dispatchable
-small_hydro_(ror)_VN;VN;172268.2508141356;;water;2450;'{''summed_max'': 4000}';0.9;80;small_hydro_(ror);dispatchable

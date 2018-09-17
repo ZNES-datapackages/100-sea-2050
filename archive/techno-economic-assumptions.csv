@@ -3,14 +3,14 @@ generic coal,2450,40,0.5,"wwf,brown,brown",dispatchable,coal
 coal ccs,4605,40,0.45,"wwf,brown,brown",dispatchable,gas
 ccgt,926,40,0.55,"wwf,brown,brown",dispatchable,gas
 gt,764,40,0.4,"wwf,brown,brown",dispatchable,gas
-wind onshore,1175,25,1,"wwf,brown,brown",volatile,wind 
-wind offshore,2349,25,1,"wwf,brown,brown",volatile,wind 
+wind onshore,1175,25,1,"wwf,brown,brown",volatile,wind
+wind offshore,2349,25,1,"wwf,brown,brown",volatile,wind
 large hydro (ror),2350,80,0.9,"wwf,brown,brown",dispatchable,water
 small hydro (ror),2450,80,0.9,"wwf,brown,brown",dispatchable,water
 pumped storage,3738,80,0.87,"wwf,brown,brown",storage,water
 pv rooftop,850,25,1,"wwf,brown,brown",volatile,solar
 pv thin film,1086,20,1,"wwf,brown,brown",volatile,solar
-battery storage,300,15,0.9,"wwf,brown,brown",storage,chemical
+battery,300,15,0.9,"wwf,brown,brown",storage,chemical
 solar thermal with storage,4000,20,1,"wwf,brown,brown",volatile,solar
 solar thermal without storage,3703,20,1,"wwf,brown,brown",volatile,solar
 biomass,1725,20,0.45,"wwf,brown,brown",dispatchable,biomass

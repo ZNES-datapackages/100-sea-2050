@@ -1,9 +1,9 @@
 name;bus;capacity_cost;capacity_ratio;carrier;costs in US/kW;efficiency;lifetime;loss;tech;type
-battery_storage_KH;KH;32938.38741030195;0.2;chemical;300;0.9;15;0;battery_storage;storage
-battery_storage_LA;LA;32938.38741030195;0.2;chemical;300;0.9;15;0;battery_storage;storage
-battery_storage_MM;MM;32938.38741030195;0.2;chemical;300;0.9;15;0;battery_storage;storage
-battery_storage_TH;TH;32938.38741030195;0.2;chemical;300;0.9;15;0;battery_storage;storage
-battery_storage_VN;VN;32938.38741030195;0.2;chemical;300;0.9;15;0;battery_storage;storage
+battery_KH;KH;32938.38741030195;0.2;chemical;300;0.9;15;0;battery;storage
+battery_LA;LA;32938.38741030195;0.2;chemical;300;0.9;15;0;battery;storage
+battery_MM;MM;32938.38741030195;0.2;chemical;300;0.9;15;0;battery;storage
+battery_TH;TH;32938.38741030195;0.2;chemical;300;0.9;15;0;battery;storage
+battery_VN;VN;32938.38741030195;0.2;chemical;300;0.9;15;0;battery;storage
 pumped_storage_KH;KH;262832.1312421383;0.1;water;3738;0.87;80;0;pumped_storage;storage
 pumped_storage_LA;LA;262832.1312421383;0.1;water;3738;0.87;80;0;pumped_storage;storage
 pumped_storage_MM;MM;262832.1312421383;0.1;water;3738;0.87;80;0;pumped_storage;storage
