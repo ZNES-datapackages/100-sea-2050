@@ -1,8 +1,7 @@
 from datapackage_utilities import building, processing
 
 # clean directories to avoid errors
-processing.clean_datapackage(directories=['data/elements', 'data/geometries', 
-                             'resources', 'cache'])
+processing.clean_datapackage(directories=['data', 'resources', 'cache'])
 
 # get config file
 config = building.get_config()
@@ -13,6 +12,7 @@ building.initialize_dpkg()
 # run scripts to add data
 import buses
 import prepare_load
+import prepare_renewable_profiles
 import prepare_technologies
 
 building.infer_metadata()

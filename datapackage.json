@@ -339,12 +339,7 @@
                         "format": "default"
                     },
                     {
-                        "name": "el-profile-TH",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "el-profile-MM",
+                        "name": "el-profile-KH",
                         "type": "number",
                         "format": "default"
                     },
@@ -354,7 +349,12 @@
                         "format": "default"
                     },
                     {
-                        "name": "el-profile-KH",
+                        "name": "el-profile-MM",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "el-profile-TH",
                         "type": "number",
                         "format": "default"
                     },
@@ -384,7 +384,7 @@
                         "format": "default"
                     },
                     {
-                        "name": "wind-profile-LA",
+                        "name": "pv-profile-KH",
                         "type": "number",
                         "format": "default"
                     },
@@ -394,27 +394,7 @@
                         "format": "default"
                     },
                     {
-                        "name": "wind-profile-KH",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "pv-profile-KH",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "wind-profile-MM",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
                         "name": "pv-profile-MM",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "wind-profile-TH",
                         "type": "number",
                         "format": "default"
                     },
@@ -424,12 +404,32 @@
                         "format": "default"
                     },
                     {
-                        "name": "wind-profile-VN",
+                        "name": "pv-profile-VN",
                         "type": "number",
                         "format": "default"
                     },
                     {
-                        "name": "pv-profile-VN",
+                        "name": "wind-profile-KH",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "wind-profile-LA",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "wind-profile-MM",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "wind-profile-TH",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "wind-profile-VN",
                         "type": "number",
                         "format": "default"
                     }
