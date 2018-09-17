@@ -4,8 +4,8 @@ battery_storage_LA;LA;32938.38741030195;0.2;chemical;300;0.9;15;0;battery_storag
 battery_storage_MM;MM;32938.38741030195;0.2;chemical;300;0.9;15;0;battery_storage;storage
 battery_storage_TH;TH;32938.38741030195;0.2;chemical;300;0.9;15;0;battery_storage;storage
 battery_storage_VN;VN;32938.38741030195;0.2;chemical;300;0.9;15;0;battery_storage;storage
-pumped_storage_KH;KH;262832.1312421383;0.2;water;3738;0.87;80;0;pumped_storage;storage
-pumped_storage_LA;LA;262832.1312421383;0.2;water;3738;0.87;80;0;pumped_storage;storage
-pumped_storage_MM;MM;262832.1312421383;0.2;water;3738;0.87;80;0;pumped_storage;storage
-pumped_storage_TH;TH;262832.1312421383;0.2;water;3738;0.87;80;0;pumped_storage;storage
-pumped_storage_VN;VN;262832.1312421383;0.2;water;3738;0.87;80;0;pumped_storage;storage
+pumped_storage_KH;KH;262832.1312421383;0.1;water;3738;0.87;80;0;pumped_storage;storage
+pumped_storage_LA;LA;262832.1312421383;0.1;water;3738;0.87;80;0;pumped_storage;storage
+pumped_storage_MM;MM;262832.1312421383;0.1;water;3738;0.87;80;0;pumped_storage;storage
+pumped_storage_TH;TH;262832.1312421383;0.1;water;3738;0.87;80;0;pumped_storage;storage
+pumped_storage_VN;VN;262832.1312421383;0.1;water;3738;0.87;80;0;pumped_storage;storage

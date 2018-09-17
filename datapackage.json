@@ -2,16 +2,13 @@
     "profile": "data-package",
     "resources": [
         {
-            "profile": "tabular-data-resource",
-            "encoding": "utf-8",
             "path": "data/elements/volatile.csv",
+            "profile": "tabular-data-resource",
             "name": "volatile",
-            "mediatype": "text/csv",
             "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
             "schema": {
-                "missingValues": [
-                    ""
-                ],
                 "fields": [
                     {
                         "name": "name",
@@ -69,34 +66,64 @@
                         "format": "default"
                     }
                 ],
+                "missingValues": [
+                    ""
+                ],
                 "foreignKeys": [
                     {
+                        "fields": "bus",
                         "reference": {
-                            "fields": "name",
-                            "resource": "bus"
-                        },
-                        "fields": "bus"
+                            "resource": "bus",
+                            "fields": "name"
+                        }
                     },
                     {
+                        "fields": "profile",
                         "reference": {
                             "resource": "volatile_profile"
-                        },
-                        "fields": "profile"
+                        }
                     }
                 ]
             }
         },
         {
+            "path": "data/elements/buses.csv",
             "profile": "tabular-data-resource",
-            "encoding": "utf-8",
-            "path": "data/elements/dispatchable.csv",
-            "name": "dispatchable",
-            "mediatype": "text/csv",
+            "name": "buses",
             "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
             "schema": {
+                "fields": [
+                    {
+                        "name": "name",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "geometry",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "type",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ],
                 "missingValues": [
                     ""
-                ],
+                ]
+            }
+        },
+        {
+            "path": "data/elements/dispatchable.csv",
+            "profile": "tabular-data-resource",
+            "name": "dispatchable",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
                 "fields": [
                     {
                         "name": "name",
@@ -129,6 +156,11 @@
                         "format": "default"
                     },
                     {
+                        "name": "edge_parameters",
+                        "type": "object",
+                        "format": "default"
+                    },
+                    {
                         "name": "efficiency",
                         "type": "number",
                         "format": "default"
@@ -149,28 +181,28 @@
                         "format": "default"
                     }
                 ],
+                "missingValues": [
+                    ""
+                ],
                 "foreignKeys": [
                     {
+                        "fields": "bus",
                         "reference": {
-                            "fields": "name",
-                            "resource": "bus"
-                        },
-                        "fields": "bus"
+                            "resource": "bus",
+                            "fields": "name"
+                        }
                     }
                 ]
             }
         },
         {
-            "profile": "tabular-data-resource",
-            "encoding": "utf-8",
             "path": "data/elements/storage.csv",
+            "profile": "tabular-data-resource",
             "name": "storage",
-            "mediatype": "text/csv",
             "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
             "schema": {
-                "missingValues": [
-                    ""
-                ],
                 "fields": [
                     {
                         "name": "name",
@@ -228,41 +260,41 @@
                         "format": "default"
                     }
                 ],
+                "missingValues": [
+                    ""
+                ],
                 "foreignKeys": [
                     {
+                        "fields": "bus",
                         "reference": {
-                            "fields": "name",
-                            "resource": "bus"
-                        },
-                        "fields": "bus"
+                            "resource": "bus",
+                            "fields": "name"
+                        }
                     }
                 ]
             }
         },
         {
-            "profile": "tabular-data-resource",
-            "encoding": "utf-8",
             "path": "data/elements/load.csv",
+            "profile": "tabular-data-resource",
             "name": "load",
-            "mediatype": "text/csv",
             "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
             "schema": {
-                "missingValues": [
-                    ""
-                ],
                 "fields": [
-                    {
-                        "name": "bus",
-                        "type": "string",
-                        "format": "default"
-                    },
                     {
                         "name": "name",
                         "type": "string",
                         "format": "default"
                     },
                     {
-                        "name": "amount",
+                        "name": "bus",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "electricity",
                         "type": "integer",
                         "format": "default"
                     },
@@ -270,141 +302,24 @@
                         "name": "profile",
                         "type": "string",
                         "format": "default"
-                    },
-                    {
-                        "name": "type",
-                        "type": "string",
-                        "format": "default"
                     }
+                ],
+                "missingValues": [
+                    ""
                 ],
                 "foreignKeys": [
                     {
+                        "fields": "bus",
                         "reference": {
-                            "fields": "name",
-                            "resource": "bus"
-                        },
-                        "fields": "bus"
+                            "resource": "bus",
+                            "fields": "name"
+                        }
                     },
                     {
+                        "fields": "profile",
                         "reference": {
                             "resource": "load_profile"
-                        },
-                        "fields": "profile"
-                    }
-                ]
-            }
-        },
-        {
-            "profile": "tabular-data-resource",
-            "encoding": "utf-8",
-            "path": "data/sequences/load_profile.csv",
-            "name": "load_profile",
-            "mediatype": "text/csv",
-            "format": "csv",
-            "schema": {
-                "missingValues": [
-                    ""
-                ],
-                "fields": [
-                    {
-                        "name": "timeindex",
-                        "type": "datetime",
-                        "format": "default"
-                    },
-                    {
-                        "name": "el-profile-TH",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "el-profile-MM",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "el-profile-LA",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "el-profile-KH",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "el-profile-VN",
-                        "type": "number",
-                        "format": "default"
-                    }
-                ]
-            }
-        },
-        {
-            "profile": "tabular-data-resource",
-            "encoding": "utf-8",
-            "path": "data/sequences/volatile_profile.csv",
-            "name": "volatile_profile",
-            "mediatype": "text/csv",
-            "format": "csv",
-            "schema": {
-                "missingValues": [
-                    ""
-                ],
-                "fields": [
-                    {
-                        "name": "timeindex",
-                        "type": "datetime",
-                        "format": "default"
-                    },
-                    {
-                        "name": "wind-profile-LA",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "pv-profile-LA",
-                        "type": "integer",
-                        "format": "default"
-                    },
-                    {
-                        "name": "wind-profile-KH",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "pv-profile-KH",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "wind-profile-MM",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "pv-profile-MM",
-                        "type": "integer",
-                        "format": "default"
-                    },
-                    {
-                        "name": "wind-profile-TH",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "pv-profile-TH",
-                        "type": "integer",
-                        "format": "default"
-                    },
-                    {
-                        "name": "wind-profile-VN",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "pv-profile-VN",
-                        "type": "number",
-                        "format": "default"
+                        }
                     }
                 ]
             }

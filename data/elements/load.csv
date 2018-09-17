@@ -1,6 +1,6 @@
-bus,name,amount,profile,type
-TH,el-demand-TH,53000000,el-profile-TH,load
-MM,el-demand-MM,148000000,el-profile-MM,load
-LA,el-demand-LA,55000000,el-profile-LA,load
-KH,el-demand-KH,88000000,el-profile-KH,load
-VN,el-demand-VN,850000000,el-profile-VN,load
+name;bus;electricity;profile
+TH-electricity-load;TH;53000000;TH-load-profile
+MM-electricity-load;MM;148000000;MM-load-profile
+LA-electricity-load;LA;55000000;LA-load-profile
+KH-electricity-load;KH;88000000;KH-load-profile
+VN-electricity-load;VN;850000000;VN-load-profile

@@ -49,10 +49,14 @@ for idx, row in df.iterrows():
                 'profile': element_name + '-profile'})
 
         if row['type'] == 'storage':
+            if 'battery' in idx:
+                cr = 0.2
+            if 'pumped' in idx:
+                cr = 0.1
             element.update({
                 'bus': b,
                 'tech': idx,
-                'capacity_ratio': 0.2,
+                'capacity_ratio': cr,
                 'capacity_cost': annuity(
                     row['costs in US/kW'], row['lifetime'], 0.07) * 1000,
                 'loss': 0})
