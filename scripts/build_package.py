@@ -11,8 +11,8 @@ building.initialize_dpkg()
 
 # run scripts to add data
 import buses
-import prepare_load
-import prepare_renewable_profiles
-import prepare_technologies
+import load
+import renewable_profiles
+import technologies
 
 building.infer_metadata()
