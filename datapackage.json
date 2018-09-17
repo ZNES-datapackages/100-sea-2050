@@ -323,6 +323,121 @@
                     }
                 ]
             }
+        },
+        {
+            "path": "data/sequences/load_profile.csv",
+            "profile": "tabular-data-resource",
+            "name": "load_profile",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "timeindex",
+                        "type": "datetime",
+                        "format": "default"
+                    },
+                    {
+                        "name": "el-profile-TH",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "el-profile-MM",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "el-profile-LA",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "el-profile-KH",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "el-profile-VN",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "path": "data/sequences/volatile_profile.csv",
+            "profile": "tabular-data-resource",
+            "name": "volatile_profile",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "timeindex",
+                        "type": "datetime",
+                        "format": "default"
+                    },
+                    {
+                        "name": "wind-profile-LA",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "pv-profile-LA",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "wind-profile-KH",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "pv-profile-KH",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "wind-profile-MM",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "pv-profile-MM",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "wind-profile-TH",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "pv-profile-TH",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "wind-profile-VN",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "pv-profile-VN",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
         }
     ]
 }

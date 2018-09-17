@@ -1,7 +1,8 @@
 from datapackage_utilities import building, processing
 
 # clean directories to avoid errors
-processing.clean_datapackage()
+processing.clean_datapackage(directories=['data/elements', 'data/geometries', 
+                             'resources', 'cache'])
 
 # get config file
 config = building.get_config()
