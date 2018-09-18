@@ -15,4 +15,4 @@ import load
 import renewable_profiles
 import technologies
 
-building.infer_metadata()
+building.infer_metadata(package_name='100-sea-2050')

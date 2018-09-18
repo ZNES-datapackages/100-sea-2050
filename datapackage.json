@@ -1,5 +1,6 @@
 {
-    "profile": "data-package",
+    "profile": "tabular-data-package",
+    "name": "100-sea-2050",
     "resources": [
         {
             "path": "data/elements/volatile.csv",
