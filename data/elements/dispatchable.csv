@@ -24,8 +24,8 @@ gt_LA;LA;57306.98209943828;;gas;764;{};0.4;40;gt;dispatchable
 gt_MM;MM;57306.98209943828;;gas;764;{};0.4;40;gt;dispatchable
 gt_TH;TH;57306.98209943828;;gas;764;{};0.4;40;gt;dispatchable
 gt_VN;VN;57306.98209943828;;gas;764;{};0.4;40;gt;dispatchable
-large_hydro_(ror)_KH;KH;165236.89363804844;;water;2350;'{''summed_max'': 4000}';0.9;80;large_hydro_(ror);dispatchable
-large_hydro_(ror)_LA;LA;165236.89363804844;;water;2350;'{''summed_max'': 4000}';0.9;80;large_hydro_(ror);dispatchable
-large_hydro_(ror)_MM;MM;165236.89363804844;;water;2350;'{''summed_max'': 4000}';0.9;80;large_hydro_(ror);dispatchable
-large_hydro_(ror)_TH;TH;165236.89363804844;;water;2350;'{''summed_max'': 4000}';0.9;80;large_hydro_(ror);dispatchable
-large_hydro_(ror)_VN;VN;165236.89363804844;;water;2350;'{''summed_max'': 4000}';0.9;80;large_hydro_(ror);dispatchable
+large_hydro_(ror)_KH;KH;165236.89363804844;;water;2350;{"summed_max": 4000};0.9;80;large_hydro_(ror);dispatchable
+large_hydro_(ror)_LA;LA;165236.89363804844;;water;2350;{"summed_max": 4000};0.9;80;large_hydro_(ror);dispatchable
+large_hydro_(ror)_MM;MM;165236.89363804844;;water;2350;{"summed_max": 4000};0.9;80;large_hydro_(ror);dispatchable
+large_hydro_(ror)_TH;TH;165236.89363804844;;water;2350;{"summed_max": 4000};0.9;80;large_hydro_(ror);dispatchable
+large_hydro_(ror)_VN;VN;165236.89363804844;;water;2350;{"summed_max": 4000};0.9;80;large_hydro_(ror);dispatchable

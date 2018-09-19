@@ -1,4 +1,5 @@
 import pandas as pd
+import json
 
 from datapackage_utilities import building
 
@@ -33,7 +34,7 @@ for idx, row in df.iterrows():
             # add tech specific data
             if row['type'] == 'dispatchable':
                 if 'ror' in idx:
-                    edge_parameters = {'summed_max': 4000}
+                    edge_parameters = json.dumps({'summed_max': 4000})
                 else:
                     edge_parameters = {}
                 element.update({

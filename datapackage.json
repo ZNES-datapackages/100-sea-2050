@@ -1,6 +1,5 @@
 {
-    "profile": "tabular-data-package",
-    "name": "100-sea-2050",
+    "profile": "data-package",
     "resources": [
         {
             "path": "data/elements/volatile.csv",
@@ -28,7 +27,7 @@
                     },
                     {
                         "name": "capacity_potential",
-                        "type": "string",
+                        "type": "number",
                         "format": "default"
                     },
                     {
